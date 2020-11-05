@@ -1,0 +1,300 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Turret Road', cursive;
+}
+
+body{
+	background: url(bg/3-min.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+.class1{
+	width: 100%;
+	height: 100vh;
+}
+
+.class1_1{
+	margin: auto;
+	width: 90%;
+	height: 150px;
+	
+}
+
+.class1_1_1_1{
+	height: 30px;
+}
+
+.class1_1_1{
+	
+	height: 90px;
+	width: 300px;
+	float: left;
+}
+
+.class_font_1{
+	margin-top: 5px;
+	margin-left: 40px;
+	font-size: 60px;
+	color: black;
+	float: left;
+}
+
+.class_font_2{
+	
+	margin-top: 25px;
+	color: green;
+	font-size: 40px;
+	float: left;
+}
+
+.class1_1_2{
+	float: left;
+	height: 70px;
+	width: 3px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-left: 20px;
+
+}
+
+.class1_1_3{
+	float: left;
+	margin-left: 30px;
+}
+
+.class1_1_3 h1{
+	font-size: 30px;
+}
+
+.class1_1_3 p{
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.class_img_logo{
+	margin-top: 10px;
+	float: right;
+	margin-right: 20px;
+}
+
+.class_img_logo a img{
+	width: 60px;
+	height: 60px;
+}
+
+.class1_2{
+	margin-top: 30vh;
+	width: 100%;
+}
+
+.class1_2_1{
+	margin: auto;
+	width: 75%;
+	text-align: center;
+}
+
+.class1_2_1 h1{
+	font-size: 50px;
+}
+
+.class1_2_1 p{
+	font-size: 30px;
+}
+
+.class2{
+	width: 100%;
+	height: 220px;
+	background-color: #d0d0d0f0;
+}
+
+
+.class2_1{
+	width: 100%;
+	height: 200px;
+	margin-top: 25px;
+	float: left;
+}
+
+.class2_1_1{
+	height: 150px;
+	width: 90%;
+	margin: auto;
+}
+
+.class_struct, .class_struct1, .class_struct2{
+	width: 24%;
+	height: 150px;
+	float: left;
+}
+
+.class_struct1, .class_struct2{
+	margin-left: 1%;
+}
+
+.object{
+	font-size: 24px;
+	display: block;
+	float: left;
+}
+
+.class_struct img, .class_struct1 img{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.class_struct h1, .class_struct1 h1{
+	width: 100%;
+	margin-top: 30px;
+	margin-left: 15px;
+	font-size: 40px;
+	float: left;
+}
+
+.class_struct p, .class_struct1 p{
+	width: 100%;
+	margin-left: 15px;
+	font-size: 2vh;
+	float: left;
+}
+
+.class3{
+	width: 100%;
+	height: 300px;
+	background: #fff;
+}
+
+.class4{
+	border-top: 1px solid #d1d1d1;
+	width: 100%;
+	height: 900px;
+	background-color: #fff;
+}
+
+.class4_1, .class4_2{
+	margin-top: 75px;
+	height: 800px;
+	margin-left: 5%;
+	float: left;
+}
+
+.class4_1{
+	width: 65%;
+}
+
+.class4_1_1{
+	margin-top: 25px;
+}
+
+.class4_1_1_1{
+	width: 95%;
+	height: 100px;
+	margin: auto;
+}
+
+.class4_1_1_1 h1, .class4_1_1_1 p{
+	text-align: center;
+}
+
+.class4_1_1_1 h1{
+	font-size: 36px;
+}
+
+.class4_1_1_1 p{
+	margin-top: 10px;
+	font-size: 28px;
+}
+
+.class4_1_1_2{
+	width: 100%;
+	height: 500px;
+	margin-top: 30px;
+}
+
+.class4_1_1_2_1{
+	width: 95%;
+	height: 500px;
+	margin: auto;
+}
+
+.img_tur{
+	width: 512px;
+	height: 306px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+	box-shadow: 0 0 5px 2px rgba(122,122,122,0.5);
+	transition: 1s;
+}
+
+.img_tur img{
+	opacity: 0.5;
+	width: 512px;
+	height: 256px;
+	transition: 1s;
+}
+
+.img_tur:hover{
+	box-shadow: 0 0 10px 2px rgba(100,100,100,0.75);
+}
+
+.img_tur img:hover{
+	opacity: 1;
+}
+
+.img_tur a{
+	text-decoration: none;
+	color: #000;
+}
+
+.img_tur p{
+	text-align: center;
+	font-size: 24px;
+}
+
+.class4_2{
+	width: 20%;
+	background-color: #d1d1d1;
+	border-radius: 20px;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+}
+
+
+@media screen and (max-width: 1366px) {
+	
+	.object{
+		font-size: 20px;
+		display: block;
+		float: left;
+	}
+
+	.class4{
+		border-top: 1px solid #d1d1d1;
+		width: 100%;
+		height: 1550px;
+		background-color: #fff;
+	}
+
+	.class4_1, .class4_2{
+		margin-top: 75px;
+		height: 1450px;
+		margin-left: 5%;
+		float: left;
+	}
+
+	.class4_1{
+		width: 55%;
+	}
+
+	.class4_2{
+		width: 30%;
+		background-color: #d1d1d1;
+		border-radius: 20px;
+	}
+}
